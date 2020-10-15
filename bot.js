@@ -24,11 +24,11 @@ fs.readdir('./cmds/',(err,files)=>{
 
 bot.on("ready", () => {
  
-    console.log(` FelixBot успешно активирован`);
+    console.log(`текст при активации`);
     bot.user.setPresence({
         status: "dnd",
         game: {
-            name: ` 💻Серверов:  ${bot.guilds.size} | !cmds`,
+            name: `статус для бота`,
             //name: ` 💻Тех.Работы `,
             type: "PLAYING"
         }
